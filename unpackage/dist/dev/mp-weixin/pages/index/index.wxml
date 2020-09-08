@@ -1,0 +1,1 @@
+<view class="content"><navigator class="nav" url="/pages/show/show" open-type="switchTab" hover-class="other-navigator-hover"><button type="default" plain="true">开始熊猫之旅</button></navigator></view>

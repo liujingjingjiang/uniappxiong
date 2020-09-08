@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/show/show",
+    "pages/share/share",
+    "pages/family/family"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#7c7c7c",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#C3EDFB",
+    "list": [
+      {
+        "pagePath": "pages/show/show",
+        "iconPath": "static/sleep.jpg",
+        "selectedIconPath": "static/chifan.jpg",
+        "text": "滚滚来了"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "static/sleep.jpg",
+        "selectedIconPath": "static/chigua.jpg",
+        "text": "滚滚日常"
+      },
+      {
+        "pagePath": "pages/family/family",
+        "iconPath": "static/sleep.jpg",
+        "selectedIconPath": "static/qinzi.jpg",
+        "text": "领养滚滚"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/sleep.jpg",
+        "selectedIconPath": "static/sleep.jpg",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#000000"
+				
+			}
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" : {"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "滚滚乐园"}
+        }
+        ,{
+            "path" : "pages/show/show",
+            "style" : {"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "滚滚乐园"}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "滚滚乐园"}
+        }
+        ,{
+            "path" : "pages/family/family",
+            "style" : {"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "滚滚乐园"}
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "white",
+		// "navigationBarTitleText": "滚滚乐园",
+		// "titleImage":"./static/timg.jpg",
+		"navigationBarBackgroundColor": "#7c7c7c",
+		"backgroundColor": "#000000"
+		// "enablePullDownRefresh":true
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#C3EDFB",
+	    "list": [
+			// {
+			//     "pagePath": "pages/index/index",
+			//     "iconPath": "static/睡觉.png",
+			//     "selectedIconPath": "static/chifan.png",
+			//     "text": "你家的滚滚"
+			// },
+			{
+	        "pagePath": "pages/show/show",
+	        "iconPath": "static/sleep.jpg",
+	        "selectedIconPath": "static/chifan.jpg",
+	        "text": "滚滚来了"
+	    }, {
+	        "pagePath": "pages/share/share",
+	        "iconPath": "static/sleep.jpg",
+	        "selectedIconPath": "static/chigua.jpg",
+	        "text": "滚滚日常"
+	    },
+		{"pagePath": "pages/family/family",
+		    "iconPath": "static/sleep.jpg",
+		    "selectedIconPath": "static/qinzi.jpg",
+		    "text": "领养滚滚"
+		},
+		{"pagePath": "pages/my/my",
+		    "iconPath": "static/sleep.jpg",
+		    "selectedIconPath": "static/sleep.jpg",
+		    "text": "个人中心"
+		}]
+	}
+}

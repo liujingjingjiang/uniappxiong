@@ -1,0 +1,24 @@
+
+.swiper{
+	width: 100%;
+	height: 40vh;
+}
+.swiper-item > image{
+	width: 100%;
+	height: 40vh;
+	object-fit: cover;
+	overflow: hidden;
+}
+.flex-item-V{
+	width: 100%;
+	height: 60vh;
+	border:1px solid #007AFF;
+}
+.item{
+	width: 90%;
+	height: 50vh;
+	border: 1px solid #39B54A;
+	margin: 5vh auto;
+}
+
+
